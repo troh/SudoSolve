@@ -8,5 +8,5 @@ package com.troh.sudoku.main;
  *
  */
 public interface SolverStrategy {
-	void solve(String gridSignature);
+	Grid solve(String gridSignature);
 }
