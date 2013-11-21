@@ -1,9 +1,9 @@
 SudoSolve
 =========
 
-A solver for sudoku puzzles implemented in Java. 
+A solver for Sudoku puzzles, implemented in Java.
 
-The algorithm is modelled on the Peter Norvig's approach. 
+The algorithm is modelled on Peter Norvig's approach. 
 
-It is implemented in Python here: http://norvig.com/sudopy.shtml
+See Norvig's Python code here: http://norvig.com/sudopy.shtml
 
