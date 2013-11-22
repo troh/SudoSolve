@@ -10,5 +10,5 @@ import com.troh.sudoku.main.GridStructure;
  *
  */
 public interface GridStructureFactory {
-	GridStructure createGridFactory();
+	GridStructure createGridStructure();
 }

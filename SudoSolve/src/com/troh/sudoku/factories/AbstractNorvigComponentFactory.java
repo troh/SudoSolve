@@ -10,7 +10,8 @@ package com.troh.sudoku.factories;
 public interface AbstractNorvigComponentFactory {
 	SearcherFactory createSearcherFactory();
 	ConstraintPropagatorFactory createConstraintPropagatorFactory();
-	GridDisplayerFactory createGridDisplayerFactory();
 	GridPossibilitiesFactory createGridPossibilitiesFactory();
 	GridStructureFactory createGridStructureFactory();
+	GridParserFactory createGridParserFactory();
+	GridFactory createGridFactory();
 }
