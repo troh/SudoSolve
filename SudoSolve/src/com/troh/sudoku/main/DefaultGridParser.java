@@ -20,9 +20,9 @@ public class DefaultGridParser implements GridParser {
 	 */
 	@Override
 	public boolean hasNext() {
-		if (currentIndex < gridSignature.length()+1)
-			return false;
-		return true;
+		if (currentIndex < gridSignature.length())
+			return true;
+		return false;
 	}
 
 	/* (non-Javadoc)

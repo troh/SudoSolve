@@ -26,6 +26,7 @@ public class DefaultSearcher implements Searcher {
 		this.possibilitiesFactory = possibilitiesFactory;
 		this.searchResultFactory = searchResultFactory;
 	}
+	
 	/* (non-Javadoc)
 	 * @see com.troh.sudoku.main.Searcher#search(com.troh.sudoku.main.GridPossibilities)
 	 */
