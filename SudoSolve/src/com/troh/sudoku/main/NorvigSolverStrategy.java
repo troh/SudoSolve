@@ -45,7 +45,7 @@ public class NorvigSolverStrategy implements SolverStrategy {
 		if (!searchResult.getStatus()) {
 			throw new IllegalArgumentException();
 		}
-		return gridFactory.createGrid(possibilities);
+		return gridFactory.createGrid(searchResult.getGridPossibilities());
 	}
 
 	private boolean assignSignatureToPossibleGrid(GridParser gridParser, GridPossibilities possibilities) {

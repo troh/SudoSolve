@@ -4,6 +4,7 @@
 package com.troh.sudoku.factories;
 
 import com.troh.sudoku.main.DefaultGridPossibilities;
+import com.troh.sudoku.main.DefaultGridStructure;
 import com.troh.sudoku.main.GridPossibilities;
 import com.troh.sudoku.main.GridStructure;
 
@@ -13,11 +14,7 @@ import com.troh.sudoku.main.GridStructure;
  */
 public class DefaultGridPossibilitiesFactory implements GridPossibilitiesFactory {
 
-	private GridStructure gridStructure;
-	
-	public DefaultGridPossibilitiesFactory(GridStructure gridStructure) {
-		this.gridStructure = gridStructure;
-	}
+	private GridStructure gridStructure = new DefaultGridStructure();
 	
 	@Override
 	public GridPossibilities createGridPossibilities() {

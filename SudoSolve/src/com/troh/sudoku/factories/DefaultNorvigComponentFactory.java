@@ -22,8 +22,7 @@ public class DefaultNorvigComponentFactory implements AbstractNorvigComponentFac
 	 */
 	@Override
 	public ConstraintPropagatorFactory createConstraintPropagatorFactory() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DefaultConstraintPropagatorFactory();
 	}
 
 	/* (non-Javadoc)
@@ -31,8 +30,7 @@ public class DefaultNorvigComponentFactory implements AbstractNorvigComponentFac
 	 */
 	@Override
 	public GridPossibilitiesFactory createGridPossibilitiesFactory() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DefaultGridPossibilitiesFactory();
 	}
 
 	/* (non-Javadoc)
@@ -40,8 +38,7 @@ public class DefaultNorvigComponentFactory implements AbstractNorvigComponentFac
 	 */
 	@Override
 	public GridStructureFactory createGridStructureFactory() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DefaultGridStructureFactory();
 	}
 
 	/* (non-Javadoc)
@@ -49,8 +46,7 @@ public class DefaultNorvigComponentFactory implements AbstractNorvigComponentFac
 	 */
 	@Override
 	public GridParserFactory createGridParserFactory() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DefaultGridParserFactory();
 	}
 
 	/* (non-Javadoc)
@@ -58,8 +54,7 @@ public class DefaultNorvigComponentFactory implements AbstractNorvigComponentFac
 	 */
 	@Override
 	public GridFactory createGridFactory() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DefaultGridFactory();
 	}
 
 }

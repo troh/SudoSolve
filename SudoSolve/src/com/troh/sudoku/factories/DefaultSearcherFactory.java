@@ -17,7 +17,7 @@ import com.troh.sudoku.main.Searcher;
 public class DefaultSearcherFactory implements SearcherFactory {
 	private GridStructure gridStructure = new DefaultGridStructure();
 	private ConstraintPropagator constraintPropagator = new DefaultConstraintPropagator(gridStructure);
-	private GridPossibilitiesFactory possibilitiesFactory = new DefaultGridPossibilitiesFactory(gridStructure);
+	private GridPossibilitiesFactory possibilitiesFactory = new DefaultGridPossibilitiesFactory();
 	private SearchResultFactory searchResultFactory = new DefaultSearchResultFactory();
 
 	/* (non-Javadoc)
