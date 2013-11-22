@@ -16,6 +16,8 @@ public class DefaultSearchResult implements SearchResult {
 		this.gridPossibilities = gridPossibilities;
 		this.status = status;
 	}
+	
+	
 	/* (non-Javadoc)
 	 * @see com.troh.sudoku.main.SearchResult#getGridPossibilities()
 	 */
